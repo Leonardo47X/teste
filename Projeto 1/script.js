@@ -24,7 +24,6 @@ function calcular() {
     resultado.innerHTML =  `<p>${Math.ceil(velocidade / 16.7)}km/h </p>`
     resultado.innerHTML += `<p>${caloriaGasta}kcal </p>`
 
-
 }
 
 function gastoEnergetico(peso) {
