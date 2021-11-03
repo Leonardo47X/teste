@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avaliador de Corrida </title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Avaliador de Corrida </h1>
+        
+        <input class="sexo" type="radio" name="sexo" id="masculino" value="m" checked>Masculino
+        <input class="sexo" type="radio" name="sexo" id="feminino" value="f">Feminino
+
+        <input class="dados" type="number" name="peso" id="peso" placeholder="Peso (Kg)">
+        <input class="dados" type="number" name="distância" id="distância" placeholder="Distância (metros)">
+        <input class="dados" type="number" name="duração " id="duração" placeholder="Duração (minutos)">
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

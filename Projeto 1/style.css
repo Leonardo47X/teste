@@ -1,0 +1,28 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(255, 251, 0);
+    padding: 20px;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+.dados{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.sexo{
+    margin-bottom: 10px;
+}
+
+#resultado{
+    background-color: white;
+    font-size: large;
+    font-style: italic;
+
+}
