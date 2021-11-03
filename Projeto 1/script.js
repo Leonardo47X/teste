@@ -1,6 +1,7 @@
 // distância em metros.
 // duração em minutos.
 //gasto energético >= 100kg - 10 | >= 80kg - 6| >= 60kg - 4 
+//login
 
 let inputPeso = document.getElementById("peso")
 let inputDistância = document.getElementById("distância")
